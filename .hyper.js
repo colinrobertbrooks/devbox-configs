@@ -104,7 +104,7 @@ module.exports = {
     bell: 'SOUND',
 
     // if true, selected text will automatically be copied to the clipboard
-    copyOnSelect: true
+    copyOnSelect: true,
 
     // if true, on right click selected text will be copied or pasted if no
     // selection is present (true by default on Windows)
@@ -112,6 +112,19 @@ module.exports = {
 
     // URL to custom bell
     // bellSoundURL: 'http://example.com/bell.mp3',
+
+    // plugin configs...
+    commands: [ // hyper-startup
+      // 'cd /c/www'
+    ],
+    hyperlinks: {
+      clickAction: 'open', // open links
+      defaultBrowser: true // open links in chrome
+    },
+    paneNavigation: { // hyper-pane
+      indicatorPrefix: '// ',
+      focusOnMouseHover: true
+    }
 
     // for advanced config flags please refer to https://hyper.is/#cfg
   },
@@ -123,13 +136,11 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyperlinks'
+    'hyper-startup',
+    'hyperlinks',
+    'hyper-simple-highlight-active-session',
+    'hyper-pane'
   ],
-
-  hyperlinks: {
-    clickAction: 'open', // open links
-    defaultBrowser: true // open links in chrome
-  },
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
