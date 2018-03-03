@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"Babel Snippets",
+		"JsPrettier",
+		"Markdown HTML Preview",
+		"Package Control",
+		"Pretty JSON",
+		"Sublime Tutor",
+		"SublimeLinter",
+		"SublimeLinter-eslint"
+	]
+}

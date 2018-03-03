@@ -1,0 +1,24 @@
+// SublimeLinter Settings - User
+/*
+  https://github.com/adamgruber/dotfiles/blob/master/sublime/pkgs-user/SublimeLinter/Blackboard%20(SL).tmTheme
+*/
+{
+  "styles": [
+    {
+      "mark_style": "outline",
+      "priority": 1,
+      "scope":
+        "sublimelinter.mark.warning",
+      "icon": "dot",
+      "types": ["warning"]
+    },
+    {
+      "mark_style": "outline",
+      "priority": 1,
+      "scope":
+        "sublimelinter.mark.error",
+      "icon": "dot",
+      "types": ["error"]
+    }
+  ]
+}
