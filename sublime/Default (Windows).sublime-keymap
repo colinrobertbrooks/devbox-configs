@@ -1,4 +1,6 @@
 [
+  { "keys": ["ctrl+alt+l"], "command": "sublime_linter_lint" },
+  { "keys": ["ctrl+alt+m"], "command": "markdown_html_preview" },
   { "keys": ["ctrl+alt+p"], "command": "js_prettier" },
   { "keys": ["ctrl+alt+j"], "command": "pretty_json" }
 ]
