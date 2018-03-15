@@ -1,6 +1,7 @@
 // https://github.com/adamgruber/dotfiles/blob/master/sublime/pkgs-user/SublimeLinter/Blackboard%20(SL).tmTheme
 {
   "lint_mode": "load_save",
+  "show_panel_on_save": "view",
   "styles": [
     {
       "mark_style": "outline",
