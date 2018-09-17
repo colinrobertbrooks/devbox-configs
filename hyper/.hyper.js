@@ -38,7 +38,8 @@ module.exports = {
     borderColor: '#333',
 
     // custom css to embed in the main window
-    css: '',
+    // https://github.com/zeit/hyper/issues/2294#issuecomment-386584180
+    css: '.terminal, .term_fit:not(.term_term) {opacity: 1 !important;}',
 
     // custom css to embed in the terminal window
     termCSS: '',

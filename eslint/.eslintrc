@@ -9,11 +9,13 @@
     "jasmine": true
   },
   "rules": {
+    "linebreak-style": 0,
     "prettier/prettier": [
       "error",
       {
         "singleQuote": true
       }
-    ]
+    ],
+    "react/jsx-filename-extension": 0
   }
 }
