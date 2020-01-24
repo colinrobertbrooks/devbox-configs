@@ -8,6 +8,8 @@ Devbox config files.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 
+- [Yarn](https://legacy.yarnpkg.com/lang/en/docs/install)
+
 ### Mac
 
 - [nvm](https://github.com/nvm-sh/nvm)
