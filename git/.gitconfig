@@ -1,0 +1,7 @@
+[user]
+	email = colinrobertbrooks@gmail.com
+	name = Colin Brooks
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
